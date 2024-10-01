@@ -72,6 +72,40 @@ console.log('Server is listening on 3100');
 </body>
 </html> */
 
+/* // call arthmetic functions, get result and print result on terminal.-4
+
+// how to import a module
+const arithmeticModule = require('./arithmetic');
+// const arithmeticModule2 = require('./arithmetic');
+
+
+// call sum functions
+const result = arithmeticModule.sum(10, 20);
+console.log(result);
+
+// file arithmetic/result
+
+module.exports.sum = (x, y) => {
+    return x + y;
+}
+
+function div(x, y) {
+    return x / y;
+}
+
+console.log('Loading arithmetic'); 
+// Common Js Module
+module.exports = {
+    add: sum,
+};
+ // case-1
+module.exports = function (x, y) {
+    return x + y;
+}
+exports = function (x, y) {
+    return x + y;
+} */
+
 
 
 
